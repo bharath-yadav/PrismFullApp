@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>PrismFullApp.Modules.ModuleName</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PrismFullApp.Core\PrismFullApp.Core.csproj" />
+    <ProjectReference Include="..\..\Services\PrismFullApp.Services.Interfaces\PrismFullApp.Services.Interfaces.csproj" />
+  </ItemGroup>
+</Project>
